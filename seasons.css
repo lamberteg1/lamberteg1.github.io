@@ -1,0 +1,272 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    Background-color: white;
+}
+
+.tree {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+.leaves {
+    width: 550px;
+    float: right;
+
+}
+
+#wrap {
+    width: auto;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#winter #wrap {}
+
+#winter h1 {}
+
+.tree {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+.border {
+    width: 100%;
+    float: center;
+
+}
+
+header img header {
+    width: auto;
+    float: center;
+}
+
+.poem Nav {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana;
+}
+
+Nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+Nav a:hover {
+    color: mediumpurple;
+    background-color: whitesmoke;
+
+}
+
+Nav li {
+    display: inline;
+}
+
+Nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+Section {}
+
+Footer {}
+
+body#spring {
+    background-color: green;
+
+}
+
+.tree {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+Nav {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana;
+}
+
+Nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+Nav a:hover {
+    color: mediumpurple;
+    background-color: whitesmoke;
+
+}
+
+Nav li {
+    display: inline;
+}
+
+Nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#spring #wrap {}
+
+#spring h1 {}
+
+.title {
+    width: 100%;
+    float: center;
+
+}
+
+header img header {}
+
+Nav {}
+
+Section {}
+
+Footer {}
+
+body#summer {
+    background-color: dark yellow;
+
+}
+
+.top {
+    width: 100%;
+    float: center;
+}
+
+.tree {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+Nav {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana;
+}
+
+Nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+Nav a:hover {
+    color: mediumpurple;
+    background-color: whitesmoke;
+
+}
+
+Nav li {
+    display: inline;
+}
+
+Nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#summer #wrap {}
+
+#summer h1 {}
+
+header img header {}
+
+Nav {}
+
+Section {}
+
+Footer {}
+
+body#Fall {
+    background-color: orange;
+
+}
+
+.tree {
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+Nav {
+    background-color: mediumpurple;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Verdana;
+}
+
+Nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+Nav a:hover {
+    color: mediumpurple;
+    background-color: whitesmoke;
+
+}
+
+Nav li {
+    display: inline;
+}
+
+Nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#Fall #wrap {}
+
+#Fall h1 {}
+
+.high {
+    width: 100%;
+    float: center;
+}
+
+header img header {}
+
+Nav {}
+
+Section {}
+
+Footer {
+    background-color: #ec3d0f;
+    background-color: mediumpurple;
+    text-align: center;
+    font-weight: bold;
+}
+}
