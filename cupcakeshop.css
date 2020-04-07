@@ -1,0 +1,178 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #cccc;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header,
+nav,
+footer {
+    padding: 20px;
+}
+
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+Nav {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+
+Section {
+    background-color: white;
+    overflow: auto;
+}
+
+Footer {
+    background-color: lightseagreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+
+
+}
+
+footter ul {
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+
+}
+
+footer a {
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+footer li {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+aside {
+    width: 24%;
+    background-color: red;
+    float: left;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+}
+
+aside li {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+aside a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+article {
+    width: 68%;
+    background-color: white;
+    float: right;
+    padding: 2%;
+}
+
+
+.buy {
+    width: 45%;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 3.0en;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightgrey;
+    }
+
+    #wrap {
+        width: 99%
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    nav ul,
+    nav li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 98%
+    }
+
+    .buy {
+        float: none;
+        width: 100%;
+    }
+}
