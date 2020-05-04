@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contact Us </title>
+    <link href="aizada.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="fb-root">
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+    </div>
+    <div id="wrap">
+        <header>
+            <img src="turklandscape.png" class="far">
+        </header>
+
+        <body style="background-color:white">
+
+            <nav>
+                <ul>
+                    <li><a href="aizada.html"> Home </a></li>
+                    <li><a href="betty.html"> Meet Betty </a></li>
+                    <li><a href="tribe.html"> Her Tribe </a></li>
+                    <li><a href="jewelry.html"> Jewelry </a></li>
+                    <li><a href="contact.html"> Contact Us </a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <div class="fb-page" data-href="https://www.facebook.com/AizadaImports/?ref=bookmarks" data-tabs="timeline" data-width="300" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/AizadaImports/?ref=bookmarks" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AizadaImports/?ref=bookmarks">Aizada Imports</a></blockquote>
+                </div>
+                <!-- SnapWidget -->
+                <iframe src="https://snapwidget.com/embed/822395" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:163px; height:163px"></iframe>
+
+                <section>
+                    <form method="post" action="thankyou.html">
+
+                        <fieldset>
+                            <legend> Fill out this form</legend>
+                            <form method="post" action="../table.html">
+                                <p> <label for="fname"> First Name</label> <br>
+                                    <input type="text" id="fname" name=fname></p>
+
+                                <p> <label for="lname"> Last Name</label> <br>
+                                    <input type="text" id="lname" name=lname></p>
+
+                                <p> <label for="email"> Email </label> <br>
+                                    <input type="email" id="email" name=email></p>
+
+                                <p> <label for="phone"> Phone </label> <br>
+                                    <input type="tel" id="phone" name=phone></p>
+
+                                <p> How did you hear about this website</p>
+
+                                <p> <input type="checkbox" id="search" name="howhere" value="SearchEngine">
+                                    <lable for="howhere">Search Engine</lable> <br>
+
+                                    <input type="checkbox" id="ad" name="howhere" value="Advertisment">
+                                    <lable for="howhere">Advertisment</lable> <br>
+
+                                    <input type="checkbox" id="friend" name="howhere" value="Friend">
+                                    <lable for="howhere">Friend</lable> <br>
+
+                                    <input type="checkbox" id="family" name="howhere" value="Family">
+                                    <lable for="Family">Family</lable> <br>
+
+                                    <input type="checkbox" id="Other" name="howhere" value="Other">
+                                    <lable for="Other">Other</lable>
+                                </p>
+
+
+                                <p>Are you interested in purchasing from Turkana Treasures?</p>
+
+                                <input type="radio" name="before" id="Yes" value="Yes"> <label for="Yes"> Yes</label><br>
+
+
+                                <input type="radio" name="before" id="No" value="No"> <label for="No"> No</label><br>
+
+                                <p> What type of jewelry are you looking for</p>
+
+                                <select id="jewelry">
+                                    <option value="selectjewelry">Select a Day</option>
+                                    <option value="Earring">Earrings</option>
+                                    <option value="Necklace">Neclaces</option>
+                                    <option value="Bracelet">Bracelets</option>
+                                    <option value="Other">Other</option>
+                                </select>
+
+                                <p> Please leave your comments below:</p>
+
+                                <textarea name="comments" id="comments" rows="10" cols="50" placeholder="Leave a comment"></textarea>
+
+                                <p><input type="submit" name="submit" value="Submit"></p>
+                            </form>
+
+                        </fieldset>
+                    </form>
+                </section>
+
+                <footer>
+                    &copy; Turkana's Treasures 2020.
+
+                </footer>
+
+                <!--close wrap-->
+            </section>
+        </body>
+    </div>
+</body>
+
+</html>

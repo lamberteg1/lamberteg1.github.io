@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Jewelry </title>
+    <link href="aizada.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <img src="turklandscape.png" class="title">
+        </header>
+
+        <body style="background-color:white"></body>
+        <nav>
+            <ul>
+                <li><a href="aizada.html"> Home </a></li>
+                <li><a href="betty.html"> Meet Betty </a></li>
+                <li><a href="tribe.html"> Her Tribe </a></li>
+                <li><a href="jewelry.html"> Jewelry </a></li>
+                <li><a href="contact.html"> Contact Us </a></li>
+            </ul>
+        </nav>
+
+        <title>slideshow</title>
+        <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+        <link href="slideshow.css" rel="stylesheet" type="text/css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160883884-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160883884-1');
+
+        </script>
+
+        <body>
+            <div id="wrap">
+
+
+                <section>
+                    <div class="slider-wrapper theme-default">
+                        <div id="slider" class="nivoSlider">
+                            <img src="images/nturq.jpg" data-thumb="images/nturq.jpg" alt="" title="" />
+                            <a href="http://dev7studios.com">
+                                <img src="images/nfunky.jpg" data-thumb="images/nfunky.jpg" alt="" title="" /></a>
+                            <img src="images/nred.jpg" data-thumb="images/nred.jpg" alt="" title="" />
+                            <img src="images/ebeads.jpg" data-thumb="images/ebeads.jpg" alt="" title="" />
+                            <img src="images/ecircle.jpg" data-thumb="images/ecircle.jpg" alt="" title="" />
+                            <img src="images/bettyclose.jpg" data-thumb="images/bettyclose.jpg" alt="" title="" />
+                        </div>
+                    </div>
+                </section>
+
+                <footer>
+                    &copy; Turkana Treasures 2020.
+                </footer>
+            </div>
+            <!--Close wrap-->
+            <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+            <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+                $(window).load(function() {
+                    $('#slider').nivoSlider();
+                });
+
+            </script>
+        </body>
+    </div>
+</body>
+
+</html>
